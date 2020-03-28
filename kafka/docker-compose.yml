@@ -1,14 +1,12 @@
-version: '2.2'
+version: '3'
 services:
   zookeeper:
     image: confluentinc/cp-zookeeper:latest
-    scale: 1
     environment:
       ZOOKEEPER_CLIENT_PORT: 2181
       ZOOKEEPER_TICK_TIME: 2000
   kafka:
     image: confluentinc/cp-kafka:latest
-    scale: 1
     depends_on:
       - zookeeper
     ports:

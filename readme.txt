@@ -14,3 +14,6 @@ docker exec -i mysql-container mysql -uroot -proot < db/create.sql
 
 ### access dir /kafka
 docker-compose up -d
+
+## Application
+docker-compose up -d
