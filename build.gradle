@@ -23,4 +23,5 @@ dependencies {
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-databind'
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-annotations'
     compile group: 'com.fasterxml.jackson.core', name: 'jackson-core'
+    compile group: 'org.springframework.kafka', name: 'spring-kafka'
 }

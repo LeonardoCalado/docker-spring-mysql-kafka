@@ -1,6 +1,8 @@
 package com.keyrus.dockerspring.data;
 
-public class DevData {
+import java.io.Serializable;
+
+public class DevData implements Serializable {
 
     private String name;
     private String language;
