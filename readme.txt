@@ -1,6 +1,7 @@
 ## Docker MySQL
 
 ### Build da imagem
+## Para subir apenas o MySQL comentar a linha "ADD ./create.sql /docker-entrypoint-initdb.d" em db/Dockerfile
 docker build -t mysql-image -f db/Dockerfile .
 
 ### Run do container
